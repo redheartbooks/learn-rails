@@ -9,10 +9,7 @@ class Owner
   end
 
   def countdown
-<<<<<<< HEAD
     Rails.logger.debug 'DEBUG: entering Owner countdown method'
-=======
->>>>>>> temp
     today = Date.today
     birthday = Date.new(today.year, birthdate.month, birthdate.day)
     if birthday > today
